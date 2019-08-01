@@ -1,0 +1,6 @@
+function test a: integer returns integer;
+	b: integer is 2;
+	b: integer is 3;
+	begin
+		b;
+	end;

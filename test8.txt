@@ -1,0 +1,10 @@
+function test a: integer returns integer;
+	b: boolean is true;
+	c: integer is 3;
+	begin
+		case b is
+			when 1 => 3;
+			when 2 => 2;
+			others => 2;
+		endcase;
+	end;

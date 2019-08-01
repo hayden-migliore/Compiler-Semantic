@@ -1,0 +1,6 @@
+function test a: integer returns integer;
+	b: integer is 2;
+	c: real is 3.5 + b;
+	begin
+		c rem 2;
+	end;
